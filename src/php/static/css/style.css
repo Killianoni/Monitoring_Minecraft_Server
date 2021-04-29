@@ -1,0 +1,134 @@
+body {
+  width: 100%;
+  background-color: #E6F2F3;
+}
+
+.jumbotron {
+  margin-top: 30px;
+  border-radius: 0;
+}
+
+.table thead th {
+  background-color: #428BCA;
+  border-color: #428BCA !important;
+  color: #FFF;
+}
+textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus,  input[type="color"]:focus, .uneditable-input:focus, .form-control:focus {  
+border-color: none;
+box-shadow:none;
+outline: none;
+}
+
+.test {
+  grid-template-columns: 100% ;
+  grid-template-rows: auto;
+}
+
+.container-fluid {
+  grid-row: auto;
+  height: auto;
+  min-height: 360px;
+  width: 100%;
+  top: 100px;
+}
+
+
+#content {
+  height: 100%;
+  position: relative;
+}
+
+#consoleRow{
+  position: absolute;
+  top: 83px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+#alertMessage{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+}
+
+#consoleContent{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 49px;
+}
+
+.panel-heading{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.panel-body{
+  position: absolute;
+  top: 43px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: auto;
+}
+
+.panel-body ul{
+  margin-bottom: 0px;
+}
+.panel-body ul li .label{
+  margin-top: 2px;
+  margin-right: -5px;
+}
+
+#consoleCommand{
+  position: absolute;
+  bottom: 0px;
+}
+
+#groupConsole{
+  overflow: auto;
+}
+
+.list-group-item {
+  padding: 3px 10px
+}
+
+.ui-autocomplete {
+  position: absolute;
+  z-index: 1000;
+  cursor: default;
+  padding: 0;
+  margin-top: 3px;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px;
+}
+.ui-autocomplete > li {
+  white-space: nowrap;
+}
+.ui-autocomplete > li div{
+  white-space: nowrap;
+  padding: 2px 12px;
+}
+.ui-autocomplete > li:hover {
+  background-color: #eeeeee;
+}
+.ui-state-active {
+  background-color: #dddddd;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+#txtCommandResults > ul{
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
